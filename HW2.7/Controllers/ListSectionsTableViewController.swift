@@ -4,7 +4,7 @@ class ListSectionsTableViewController: UITableViewController {
     
     // эта переменная не получает из класса TableViewController данные и не инициализируется.
     //   исходная переменная:
-    //   var personList0: [Person]!
+   //    var personList: [Person]!
     
     // сгенерирован новый массив для проверки работоспособности второго окна.
     var personList = Person.createUniquePersonsList(number: 10)
